@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: helloprow-go-8lmf
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/helloprow-go/helloprow-go-8lmf@sha256:b0127581e4b2ddb61f50be5e3e1b590b199ae0d490d1a304b967c57d5af0377d
+        name: container-image
+        resources: {}
+status: {}
