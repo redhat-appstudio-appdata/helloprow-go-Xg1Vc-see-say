@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: helloprow-go-8lmf
     app.kubernetes.io/part-of: helloprow-go
-  name: helloprow-go-8lmfx3mw
+  name: helloprow-go-8lmfv526
 spec:
   port:
     targetPort: 8080
