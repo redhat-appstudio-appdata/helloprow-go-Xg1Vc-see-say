@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/helloprow-go/helloprow-go-8lmf@sha256:b0127581e4b2ddb61f50be5e3e1b590b199ae0d490d1a304b967c57d5af0377d
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/helloprow-go/helloprow-go-8lmf@sha256:77ccca3db44d5ea6c20c6a74d81883a06e94572dd2ec1895d645e9074c16b1fe
         name: container-image
         resources: {}
 status: {}
