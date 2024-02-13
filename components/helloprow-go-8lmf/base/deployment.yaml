@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: helloprow-go
   name: helloprow-go-8lmf
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
